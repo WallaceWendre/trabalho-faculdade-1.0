@@ -1,0 +1,33 @@
+/* Estilo base */
+body {
+    background-color: #eef2f3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.app-container {
+    background: white;
+    width: 350px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* Lista e Itens */
+ul { list-style: none; padding: 0; }
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+/* Classe para tarefa concluída (Requisito do Desafio) */
+.completed span {
+    text-decoration: line-through;
+    color: #888;
+}
